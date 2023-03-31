@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.color-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.light-mode {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+.dark-mode {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 34px;
+  color: #ffffff;
+}
